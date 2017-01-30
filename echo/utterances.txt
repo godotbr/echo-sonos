@@ -76,40 +76,6 @@ FavoriteIntent play favorite {Preset}
 FavoriteIntent start favorite {Preset}
 FavoriteIntent start favorite {Preset}
 
-SiriusXMStationIntent start sirius XM {Station} in the {Room}
-SiriusXMStationIntent start sirius XM {Station}
-SiriusXMStationIntent tune to sirius XM {Station} in the {Room}
-SiriusXMStationIntent tune to sirius XM {Station}
-
-SiriusXMChannelIntent start sirius XM channel {Channel} in the {Room}
-SiriusXMChannelIntent start sirius XM channel {Channel}
-SiriusXMChannelIntent tune to sirius XM channel {Channel} in the {Room}
-SiriusXMChannelIntent tune to sirius XM channel {Channel}
-
-PandoraMusicIntent tune to pandora {Name} in the {Room}
-PandoraMusicIntent tune to pandora {Name} in {Room}
-
-PandoraMusicIntent tune to pandora {Name}
-
-PandoraMusicIntent tune to pandora {Name} in the {Room}
-PandoraMusicIntent tune to pandora {Name} in {Room}
-
-PandoraMusicIntent tune to pandora {Name}
-
-PandoraThumbsUpIntent give the current song in the {Room} a thumbs up
-PandoraThumbsUpIntent give the current song a thumbs up in the {Room}
-PandoraThumbsUpIntent give this song a thumbs up in the {Room}
-
-PandoraThumbsUpIntent give the current song a thumbs up
-PandoraThumbsUpIntent give this song a thumbs up
-
-PandoraThumbsDownIntent give the current song in the {Room} a thumbs down
-PandoraThumbsDownIntent give the current song a thumbs down in the {Room}
-PandoraThumbsDownIntent give this song a thumbs down in the {Room}
-
-PandoraThumbsDownIntent give the current song a thumbs down
-PandoraThumbsDownIntent give this song a thumbs down
-
 ChangeRoomIntent change room to {Room}
 ChangeRoomIntent change room to the {Room}
 
