@@ -6,7 +6,7 @@
       "slots": [
         {
             "name": "AlbumName",
-            "type": "AMAZON.MusicAlbum"
+            "type": "NAMES"
         },
         {
             "name": "Room",
@@ -20,7 +20,7 @@
       "slots": [
         {
             "name": "TrackName",
-            "type": "AMAZON.MusicRecording"
+            "type": "NAMES"
         },
         {
             "name": "Room",
@@ -34,7 +34,7 @@
       "slots": [
         {
             "name": "ArtistName",
-            "type": "AMAZON.MusicGroup"
+            "type": "NAMES"
         },
         {
             "name": "Room",
@@ -48,7 +48,7 @@
       "slots": [
         {
             "name": "ArtistName",
-            "type": "AMAZON.MusicGroup"
+            "type": "NAMES"
         },
         {
             "name": "Room",
@@ -75,69 +75,7 @@
             "type": "ROOMS"
         }   
       ]
-    },
-      
-    {  
-      "intent": "SiriusXMStationIntent",
-      "slots": [
-        {
-            "name": "Station",
-            "type": "SXMSTATIONS"
-        },
-        {
-            "name": "Room",
-            "type": "ROOMS"
-        }   
-      ]
-    },
-      
-    {  
-      "intent": "SiriusXMChannelIntent",
-      "slots": [
-        {
-            "name": "Channel",
-            "type": "SXMCHANNELS"
-        },
-        {
-            "name": "Room",
-            "type": "ROOMS"
-        }   
-      ]
-    },
-      
-    {
-      "intent": "PandoraMusicIntent",
-      "slots": [
-        {
-            "name": "Name",
-            "type": "NAMES"
-        },
-        {
-            "name": "Room",
-            "type": "ROOMS"
-        }   
-      ]
-    },
-   
-    {
-      "intent": "PandoraThumbsUpIntent",
-      "slots": [
-        {
-            "name": "Room",
-            "type": "ROOMS"
-        }   
-      ]
-    },
-    
-    {
-      "intent": "PandoraThumbsDownIntent",
-      "slots": [
-        {
-            "name": "Room",
-            "type": "ROOMS"
-        }   
-      ]
-    },
+    },      
       
     {
       "intent": "PlayPresetIntent",
@@ -264,11 +202,31 @@
     },
 
     {
+      "intent": "VolumeSlightlyDownIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+    
+    {
+      "intent": "VolumeSlightlyUpIntent",
+      "slots": [
+        {
+            "name": "Room",
+            "type": "ROOMS"
+        }   
+      ]
+    },
+
+    {
       "intent": "SetVolumeIntent",
       "slots": [
         {
             "name": "Percent",
-            "type": "AMAZON.NUMBER"
+            "type": "NAMES"
         },
         {
             "name": "Room",

@@ -42,6 +42,7 @@ EchoSonos.prototype.intentHandlers = {
     ArtistIntent: function (intent, session, response) {
         console.log("MusicIntent received for room " + intent.slots.Room.value);
         loadCurrentRoomAndService('DefaultEcho', intent.slots.Room.value, function(room, service) {
+            console.log("room " + room + " service " + " artist " + intent.slots.ArtistName.value);
             musicHandler(room, service, '/song/', 'artist:' + intent.slots.ArtistName.value, response);
         });
     },
@@ -211,6 +212,20 @@ EchoSonos.prototype.intentHandlers = {
         console.log("VolumeUpIntent received");
         loadCurrentRoomAndService('DefaultEcho', intent.slots.Room.value, function(room, service) {
             volumeHandler(room, response, '+10');
+        });
+    },
+
+    VolumeSlightlyDownIntent: function (intent, session, response) {
+        console.log("VolumeSlightlyDownIntent received");
+        loadCurrentRoomAndService('DefaultEcho', intent.slots.Room.value, function(room, service) {
+            volumeHandler(room, response, '-5');
+        });
+    },
+
+    VolumeSlightlyUpIntent: function (intent, session, response) {
+        console.log("VolumeSlightlyUpIntent received");
+        loadCurrentRoomAndService('DefaultEcho', intent.slots.Room.value, function(room, service) {
+            volumeHandler(room, response, '+5');
         });
     },
 
