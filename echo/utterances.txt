@@ -419,3 +419,36 @@ LineInIntent to set line-in for the {Room} to {LineIn}
 LineInIntent to set line-in for {Room} to the {LineIn}
 LineInIntent to set line-in for the {Room} to the {LineIn}
 LineInIntent to set line-in for {Room} to {LineIn}
+
+FavoriteIntent spiele {Preset} in {Room}
+
+JoinGroupIntent füge {JoiningRoom} zu {PlayingRoom}
+
+UngroupIntent isoliere {Room}
+UngroupIntent {Room} von Gruppe entfernen
+
+ArtistIntent spiele was von {ArtistName} in {Room}
+ArtistIntent spiele was von {ArtistName} im {Room}
+ArtistIntent spiele etwas von {ArtistName} in {Room}
+ArtistIntent spiele etwas von {ArtistName} im {Room}
+
+PauseAllIntent stoppe alles
+PauseAllIntent stoppe in allen Räumen
+
+PauseIntent Pause in {Room}
+
+VolumeUpIntent lauter in {Room}
+VolumeUpIntent lauter
+
+VolumeDownIntent leiser in {Room}
+VolumeDownIntent leiser
+
+VolumeSlightlyUpIntent etwas lauter in {Room}
+VolumeSlightlyUpIntent ein bischen lauter in {Room}
+VolumeSlightlyUpIntent etwas lauter
+VolumeSlightlyUpIntent ein bischen lauter
+
+VolumeSlightlyDownIntent etwas leiser in {Room}
+VolumeSlightlyDownIntent etwas leiser
+VolumeSlightlyDownIntent ein bischen leiser in {Room}
+VolumeSlightlyDownIntent ein bischen leiser
